@@ -1,20 +1,29 @@
 html, body{
-    height: 100%;
+
 }
+
 
 #welcomeText1{
-    margin-top: 20px;
-}
 
-#carouselHome{
+}
+#containerHeader, #welcomeText1, .containerHome{
+
+   
+}
+#carouselExampleControls{
+    align-content: center;
     
 }
+#containerBio{
+    padding-top: -10px;
+}
 #bio{
-    margin-top: 20px;
-    padding-bottom: 30px;
+
 }
 
 #footer{
+
+    bottom: 0px;
     
 }
 
