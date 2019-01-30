@@ -26,13 +26,31 @@ html, body{
     bottom: 0px;
     
 }
+.card-img-top{
+    align-self: center;
+    height: 100px;
+    width: 100px;
+}
+.parallaxHead{
+     /* The image used */
+     background-image: url("https://cdn.theatlantic.com/assets/media/img/photo/2018/12/2018-hubble-space-telescope-advent/a01_heic1808a/main_900.jpg?1543651480");
 
+     /* Set a specific height */
+     min-height: 75px; 
+     max-width: 100%;
+ 
+     /* Create the parallax scrolling effect */
+     background-attachment: fixed;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
 .parallax {
     /* The image used */
-    background-image: url("http://via.placeholder.com/350x149");
+    background-image: url("https://cdn.theatlantic.com/assets/media/img/photo/2018/12/2018-hubble-space-telescope-advent/a01_heic1808a/main_900.jpg?1543651480");
 
     /* Set a specific height */
-    min-height: 200px; 
+    min-height: 100px; 
     max-width: 100%;
 
     /* Create the parallax scrolling effect */
